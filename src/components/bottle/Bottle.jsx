@@ -10,7 +10,7 @@ const Bottles = ({bottle, handleCartBottle}) => {
             <img className="image" src={img} alt="" />
             <h3>Name: {name}</h3>
             <p>Price: {price}</p>
-            <button onClick={() => handleCartBottle(bottle)}>Buy Now</button>
+            <button className="btn" onClick={() => handleCartBottle(bottle)}>Buy Now</button>
         </div>
     );
 };
